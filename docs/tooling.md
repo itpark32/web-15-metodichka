@@ -1,0 +1,71 @@
+# 7. Webpack и качество кода
+
+<p class="reading-time">Чтение: 6 минут</p>
+
+Сборщик берет исходные модули и ресурсы проекта, строит граф зависимостей и создает файлы для публикации. В потоке этот процесс разбирался на Webpack.
+
+## Основные части конфигурации
+
+```js
+export default {
+  mode: "production",
+  entry: "./src/index.js",
+  output: {
+    filename: "bundle.js",
+    clean: true,
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
+};
+```
+
+- `entry` задает входной модуль;
+- `output` описывает результат;
+- loaders учат Webpack обрабатывать не только JavaScript;
+- plugins выполняют более общие действия;
+- development удобен для работы, production оптимизирует результат.
+
+## npm scripts
+
+```json
+{
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "lint": "eslint src"
+  }
+}
+```
+
+Команды проекта должны быть одинаковыми для всей команды. `package-lock.json` фиксирует версии зависимостей и тоже хранится в Git.
+
+## Разные инструменты
+
+- Prettier форматирует код;
+- ESLint ищет потенциальные ошибки и нарушения правил;
+- Husky запускает проверки на Git-событиях;
+- source map связывает собранный код с исходниками;
+- GitHub Pages публикует статический результат.
+
+## Где это было
+
+Рабочая конфигурация находится в проекте [webpak-calc-sp15](https://github.com/likermusic/webpak-calc-sp15): несколько entry-файлов, dev server, извлечение и минификация CSS, ESLint, Prettier, Husky и деплой.
+
+## Мини-практика
+
+Объясните путь `src/index.js` до `dist/index.bundle.js`. Затем измените исходник, выполните `npm run build` и убедитесь, что результат появился в `dist`.
+
+## Проверьте себя
+
+1. Для чего нужны `entry` и `output`?
+2. Чем ESLint отличается от Prettier?
+3. Почему `node_modules` не коммитят, а lock-файл коммитят?
+
+[Следующая тема: данные и условия →](js-basics.md)
+
