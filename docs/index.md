@@ -1,12 +1,12 @@
 # Веб-разработка 15 потока: быстро вспомнить главное
 
-<p class="reading-time">25 тем · главы на 5-10 минут · примеры по занятиям потока</p>
+<p class="reading-time">30 тем · главы на 5-10 минут · примеры по занятиям потока</p>
 
 <div class="route-card" markdown>
 
-Это не полная энциклопедия и не пересказ программы на 18 месяцев. Здесь собран материал, который подтверждается файлами занятий 15 потока: от HTML и CSS до DOM, асинхронности, Fetch API и сборки Webpack.
+Это не полная энциклопедия и не пересказ программы на 18 месяцев. Здесь собран актуальный материал 15 потока: от устройства веба, HTML и CSS до DOM, хранения данных, REST API, модулей и сборки Webpack.
 
-[Начать с HTML](html.md){ .md-button .md-button--primary }
+[Начать с основ веба](web-basics.md){ .md-button .md-button--primary }
 [Готовиться к интервью](interview/index.md){ .md-button }
 
 </div>
@@ -37,10 +37,10 @@
 ## Маршрут
 
 <div class="topic-grid">
-  <div class="topic-card"><strong>HTML и CSS</strong>Структура страницы, кнопки и формы, каскад, блочная модель, Flexbox, Grid и адаптивность.</div>
-  <div class="topic-card"><strong>Организация проекта</strong>БЭМ, SCSS, Git, GitHub, Webpack, ESLint и Prettier.</div>
-  <div class="topic-card"><strong>JavaScript</strong>Данные, условия, циклы, строки, массивы, объекты, функции, алгоритмы и регулярные выражения.</div>
-  <div class="topic-card"><strong>Браузер</strong>DOM, события, формы, асинхронность, Promise и Fetch API.</div>
+  <div class="topic-card"><strong>HTML и CSS</strong>Структура, контент, формы, каскад, оформление, сетки, адаптивность и анимации.</div>
+  <div class="topic-card"><strong>Организация проекта</strong>Figma, Pixel Perfect, БЭМ, SCSS, Git, Webpack и качество кода.</div>
+  <div class="topic-card"><strong>JavaScript</strong>Данные, числа, алгоритмы, коллекции, функции, ошибки, ООП и модули.</div>
+  <div class="topic-card"><strong>Браузер и сеть</strong>DOM, события, BOM, хранилища, асинхронность, HTTP, REST API и SPA.</div>
 </div>
 
 ## Что подтверждено материалами потока
@@ -53,6 +53,6 @@
 
 ## Что пока не включено
 
-Полная программа 2026 года также содержит React, TypeScript, Redux Toolkit, тестирование, PHP, MySQL и Laravel. Файлы потока не подтверждают прохождение этих модулей, поэтому они отмечены только в разделе [«Дальше по программе»](next.md).
+Полная программа 2026 года также содержит React, TypeScript, Redux Toolkit, тестирование, подготовку к трудоустройству, PHP, MySQL и Laravel. Поток еще не проходил эти модули, поэтому они отмечены только в разделе [«Дальше по программе»](next.md).
 
-[Перейти к HTML →](html.md)
+[Начать маршрут: как работает Web →](web-basics.md)

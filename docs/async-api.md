@@ -1,4 +1,4 @@
-# 18. Асинхронность и Fetch API
+# 26. Асинхронность и Fetch API
 
 <p class="reading-time">Чтение: 9 минут</p>
 
@@ -86,4 +86,4 @@ async function loadProducts() {
 2. Что возвращает async-функция?
 3. Почему Fetch требует отдельной проверки `response.ok`?
 
-[Следующая тема: проекты потока →](projects.md)
+[Следующая тема: HTTP, REST API и Network](http-rest.md)

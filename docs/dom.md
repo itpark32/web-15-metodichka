@@ -1,4 +1,4 @@
-# 16. DOM
+# 23. DOM
 
 <p class="reading-time">Чтение: 7 минут</p>
 

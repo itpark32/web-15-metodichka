@@ -1,4 +1,4 @@
-# 7. Git и GitHub
+# 12. Git и GitHub
 
 <p class="reading-time">Чтение: 6 минут</p>
 

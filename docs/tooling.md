@@ -1,4 +1,4 @@
-# 8. Webpack и качество кода
+# 13. Webpack и качество кода
 
 <p class="reading-time">Чтение: 6 минут</p>
 
