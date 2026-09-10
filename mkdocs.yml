@@ -1,5 +1,5 @@
 site_name: Методичка 15 потока
-site_description: Короткий маршрут повторения веб-разработки по материалам 15 потока
+site_description: Короткий маршрут повторения веб-разработки для 15 потока
 site_url: https://itpark32.github.io/web-15-metodichka/
 repo_name: itpark32/web-15-metodichka
 repo_url: https://github.com/itpark32/web-15-metodichka
@@ -107,4 +107,4 @@ nav:
       - JavaScript: interview/javascript.md
       - Браузер, сеть и архитектура: interview/browser-tools.md
       - Пробное интервью: interview/mock.md
-  - Дальше по программе: next.md
+  - Следующие темы курса: next.md
